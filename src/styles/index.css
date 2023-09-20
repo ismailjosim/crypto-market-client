@@ -1,11 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 
 /* *** Global Style goes Here *** */
-/* body {
+body {
 	font-family: 'Poppins', sans-serif;
-} */
+}
+
 .active {
 	background-color: transparent !important;
 	color: #f7931a !important;
