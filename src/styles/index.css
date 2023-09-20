@@ -6,3 +6,8 @@
 /* body {
 	font-family: 'Poppins', sans-serif;
 } */
+.active {
+	background-color: transparent !important;
+	color: #f7931a !important;
+	border-bottom: 2px solid #f7931a;
+}
