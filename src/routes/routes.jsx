@@ -15,8 +15,33 @@ const routes = createBrowserRouter([
                 element: <Home />
             },
             {
+                path: '/crypto',
+                element: <h3>This is crypto page</h3>
+
+            },
+            {
                 path: '/about',
                 element: <h3>This is about page</h3>
+
+            },
+            {
+                path: '/team',
+                element: <h3>This is team page</h3>
+
+            },
+            {
+                path: '/contact',
+                element: <h3>This is contact page</h3>
+
+            },
+            {
+                path: '/shop',
+                element: <h3>This is shop page</h3>
+
+            },
+            {
+                path: '/blog',
+                element: <h3>This is blog page</h3>
             }
         ]
     }
