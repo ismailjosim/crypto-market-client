@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import Main from '../layouts/Main';
 import ErrorPage from '../pages/ErrorPage';
 import Home from '../pages/Home';
+import Crypto from '../pages/Crypto';
 
 
 const routes = createBrowserRouter([
@@ -16,7 +17,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: '/crypto',
-                element: <h3>This is crypto page</h3>
+                element: <Crypto />
 
             },
             {
